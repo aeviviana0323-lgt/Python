@@ -1,0 +1,6 @@
+litros = float(input("Litros diarios: "))
+precio = float(input("Precio por litro: "))
+dias = int(input("Días de producción: "))
+
+print("Total de leche:", litros * dias, "litros")
+print("Pago total: $", litros *dias*precio)
